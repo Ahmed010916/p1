@@ -17,6 +17,12 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    background-image: url('../img/ovlay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
 }
 
 
@@ -26,4 +32,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.page3foot {
+    position: absolute;
+    bottom: 20vh;
+    right: 0;
+    width: 150px;
 }
