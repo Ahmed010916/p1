@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+
+
+.whatis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.content {
+    flex: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
