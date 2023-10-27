@@ -7,7 +7,34 @@
 body {
     max-width: 767px;
     margin: 0 auto;
+    position: relative;
+    min-height: 90vh;
 }
+
+
+
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+.time {
+    width: 100%;
+    min-height: 300px;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+    background-color: rgb(255, 250, 223);
+    position: absolute;
+    bottom: 0;          
+}
+
+
+.fc-theme-standard td, .fc-theme-standard th {
+    border: none;
+  }
+
 
 
 footer {
@@ -16,4 +43,5 @@ footer {
     width: 100%;
     border-top-left-radius: 35px !important;
     border-top-right-radius: 35px !important;
+    background-color: white;
 }
