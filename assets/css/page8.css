@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+
+
+.whatis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.content {
+    flex: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+}

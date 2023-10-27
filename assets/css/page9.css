@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+}
